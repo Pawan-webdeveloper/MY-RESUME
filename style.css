@@ -120,7 +120,7 @@ footer{
   .zoro-sleep{
     position: absolute;
     left: 0px;
-    
+    bottom: 0px;
   }
 
   @media screen and (max-width: 800px) {
