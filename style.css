@@ -12,6 +12,7 @@ body{
     height: 300px;
     margin-bottom: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
 }
 
 .container{
@@ -122,30 +123,18 @@ footer{
     
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 800px) {
     .seventh{
         margin-left: 80px;
         margin-right: 0px;
     }
 
 }
-@media screen and (max-width: 880px) {
-    .seventh{
-        margin-left: 140px;
-        margin-right: 0px;
-    }
 
-}
-@media screen and (max-width: 414px) {
-  .zoro-sleep{
-    height: 200px;
-    margin-top: 100px;
-  }
 
-}
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 800px){
     .zoro-sleep{
         height: 200px;
-        margin-top: 100px;
-      }
+       
+    }
 }
